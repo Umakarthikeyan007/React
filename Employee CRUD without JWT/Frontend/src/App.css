@@ -1,0 +1,262 @@
+.App-logo {
+  width:90px;
+  height:90px;
+  margin-left: 20rem;
+}
+html{
+  background:linear-gradient(#2193b0,#6dd5ed);
+  height:100%;
+  background-repeat: no-repeat;
+}
+.btn{
+  margin-top: 30px;
+  padding: 5px;
+  background-color:#6dd5ed;
+  color:white;
+  width:120px !important;
+  height:60px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.PhoneInputCountryIconImg{
+  width:40px;
+  height:40px;
+  position: absolute;
+  left: 1185px;
+  top: 358px;
+}
+.PhoneInputCountrySelect{
+  width:250px;
+  font-size: 16px;
+  padding:10px;
+  height:40px;
+  margin-bottom: 20px;
+}
+.PhoneInputInput{
+  margin-bottom:20px;
+}
+.main{
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ margin-bottom: 20px;
+}
+ 
+.content{
+  text-align: center;
+  align-items: center;
+}
+.footer a{
+  text-decoration: none;
+  color:rgb(91, 91, 219);
+}
+.footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.footer li{
+  display: inline;
+  margin:20px;
+  font-size:25px;
+}
+.footer{
+  position: fixed;
+  bottom: 0px;
+  width:100%;
+  margin: auto;
+  background-color:aliceblue;
+}
+.form-section{
+  padding-top: 30px;
+  width:600px;
+  height:40rem;
+  background-color: aliceblue;
+  border-radius: 30px;
+  text-align: center;
+  padding:50px 100px;
+}
+.elements{
+  display:flex;
+  justify-content:space-between;
+}
+label{
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+input{
+  font-size: 20px;
+  padding:10px;
+  height:20px;
+  width:400px;
+}
+textarea{
+  height:100px;
+  width:400px;
+  font-size: 18px;
+  padding: 20px 0px 0px 20px;
+}
+
+textarea{
+  resize: none;
+}
+h1{
+  color:aliceblue;
+}
+.Main-table{
+  margin: 25px;
+  font-size:20px;
+  min-width: max-content;
+  border-collapse: collapse;
+  border-radius: 25px;
+  border-style: hidden;
+  box-shadow: 0 0 0 2px #6fbccf;
+  overflow: hidden;
+}
+.Main-table thead tr{
+  background-color:aliceblue;
+  color:#2193b0;
+  text-align:center;
+  height: 4rem;
+}
+.Main-table th td{
+  height:2rem;
+  padding:12px 15px;
+}
+.Main-table tbody td{
+  height:2rem;
+}
+.Main-table tbody tr{
+  border-bottom: 1px solid aliceblue;
+}
+
+tr:nth-child(even){
+  background-color: #6dd5ed;
+}
+tr:nth-child(even) .Actions{
+  border: 2px solid #6dd5ed;
+}
+tr:nth-child(odd) .Actions{
+  border: 2px solid #6fbccf;
+  ;
+}
+.Action-buttons{
+  display:flex;
+  flex-direction: row;
+}
+.Actions{
+  background-color: #6dd5ed;
+  padding: 10px;
+  border-radius: 25px;
+  background-color:white;
+  font-size: 1rem;
+}
+.email-span{
+  position: absolute;
+  top:183px;
+  left:990px;
+  color:red;
+}
+.fname-span{
+  position: absolute;
+  top:250px;
+  left:842px;
+  color:red;
+}
+.lname-span{
+  position: absolute;
+  top:320px;
+  left:842px;
+  color:red;
+}
+.dob-span{
+  position: absolute;
+  top:510px;
+  left:990px;
+  color:red;
+}
+.address-span{
+  position: absolute;
+  top:663px;
+  left:932px;
+  color:red;
+}
+.mob-span{
+  position: absolute;
+  top:445px;
+  left:1000px;
+  color:red;
+}
+.error{
+  border:1px solid red;
+}
+.header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Detailsheader{
+  display:flex;
+  align-items: center;
+  height: 100px;
+}
+.title{
+  margin-left: 460px;
+}
+.buttons{
+  display: flex;
+  justify-content:space-around;
+}
+.add{
+  margin-right:20rem;
+}
+.btn:hover{
+  background: aliceblue;
+  color:#6dd5ed;
+}
+.Actions:hover{
+  color: aliceblue;
+  background:teal;
+}
+.alertbox{
+  position:absolute;
+  background-color: #6dd5ed;
+  color:black ;
+  text-align: center;
+  border-radius: 20px;
+  bottom: 41.5%;
+  left:38%;
+  box-shadow: 0 2px 50px rgba(0,0,0,0.2);
+  padding:0px 30px 20px;
+  transition: 0.1s;
+  visibility: hidden;
+}
+.alertboxmessage{
+  position:absolute;
+  background-color: #6dd5ed;
+  color:black ;
+  text-align: center;
+  border-radius: 20px;
+  bottom: 44%;
+  left:42%;
+  box-shadow: 0 2px 50px rgba(0,0,0,0.2);
+  padding:0px 30px 20px;
+  transition: 0.1s;
+  visibility: hidden;
+}
+.icon{
+  height:72px;
+  width: 72px;
+  position:relative;
+  bottom:20px;
+  left:160px;
+  color:white;
+  font-size: 4.5rem;
+  background-color: black;
+  border-radius: 50px;
+}
+.popup{
+  visibility:visible;
+  transform: scale(1);
+}
